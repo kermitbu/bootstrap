@@ -5,7 +5,7 @@ echo "set fileencoding=utf-8" >> ~/.vimrc
 fi
 
 if [ `grep -c 'set fileencodings' ~/.vimrc` -eq '0' ]; then
-echo "set fileencoding=utf-8,gb2312,gb18030,latinl" >> ~/.vimrc
+echo "set fileencodings=utf-8,gb2312,gb18030,latinl" >> ~/.vimrc
 fi
 
 if [ `grep -c 'set encoding' ~/.vimrc` -eq '0' ]; then

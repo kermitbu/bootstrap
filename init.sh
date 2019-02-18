@@ -1,3 +1,5 @@
+sudo apt-get install -y vim gcc make cmake gdb dos2unix git tar unzip wget
+
 touch ~/.vimrc
 
 if [ `grep -c 'set fileencoding' ~/.vimrc` -eq '0' ]; then
